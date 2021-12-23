@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+     /* CODED BY BARUN 
+           SPEICAL 
+          THANKS TO
+          MR.BARUN */
+         
+       * { margin: 0;
+           padding: 0; 
+           box-sizing: border-box;
+           font-family: 'Montserrat', sans-serif;
+        }
+       #bckColor { 
+           height: 100%;
+           width: 100vw;
+           
+       }
+     #bckColor table {
+              font-size: 2rem;
+              z-index: 1;
+              text-qlign: center;
+              padding: 1rem;
+     
+              }
+    #bckColor table #txtHex { 
+                 display: flex;
+                 flex-direction: column;
+                 margin-top: 1rem;
+                 padding: 0.2rem;
+                 font-size: 1.8rem;
+                 width: 17rem;
+                 text-align: center;
+                 background: hsl(0, 0%, 94%);
+                 outline: none;
+                 border: 1px dashed black;
+                 transition: all 0.3s ease-in-out;
+                 border-radius: 2rem;
+      }
+     #bckColor table #txtHex:hover {
+                 padding: 0.4rem;
+                 font-size: 1.95rem;
+     }
+  /* input[type="range"] {
+                 width: 15rem;
+                 height: 3rem;
+                 padding-top: 0.3rem;
+                 padding-bottom: 0.3rem;
+                 background: red;
+                
+           } */
+           
+    #bckColor h1 { font-size: 1.5rem;
+           background: #E63C44;
+           padding: 0.4rem;
+           color: #fff;
+            font-weight: 600;
+            margin-left: 0.5rem;
+            margin-right: 0.5rem;
+            border-radius: 5px;
+        
+           }
+       #value { 
+            padding: 0.6rem 1.5rem;
+            margin: 0.3rem;
+            font-size:1.1rem;
+            font-weight: bold;
+            color: white;
+            background: transparent;
+            border: 1px dotted black;
+            outline: none;
+            border-radius: 0.6rem;
+            transition-duration: 0.5s;
+            cursor: pointer;
+            }
+     #value:hover { 
+             border: 0.10rem dashed black;
+              }
+           #r1 { -webkit-appearance: none;
+                 width: 16rem;
+                 height: 15px;
+                 background: #fff;
+                 outline: none;
+                 margin-bottom: 20px;
+                 overflow: hidden;
+                 border-radius: 15px;
+                 box-shadow: inset 0 0 5px rgba(0, 0, 0, 1);
+               }
+           #r1::-webkit-slider-thumb {
+                  -webkit-appearance: none;
+                   height: 15px;
+                   width: 15px;
+                   border-radius: 50%;
+                   background: red;
+                   corsor: pointer;
+                   border: 3px solid #000;
+                   box-shadow: -407px 0 0 400px red;
+                 
+                 }
+               /* 2020 BEST COLOR PICKER 
+                   CODED BY BARUN
+                     THANKS TO BARUN */
+          #r2 { -webkit-appearance: none;
+                 width: 16rem;
+                 height: 15px;
+                 background: #fff;
+                 outline: none;
+                 margin-bottom: 20px;
+                 overflow: hidden;
+                 border-radius: 15px;
+                 box-shadow: inset 0 0 5px rgba(0, 0, 0, 1);
+                 }
+         #r2::-webkit-slider-thumb {
+                 -webkit-appearance: none;
+                 height: 15px;
+                 width: 15px;
+                 border-radius: 50%;
+                 background: #00ff00;
+                 corsor: pointer;
+                 border: 3px solid #000;
+                 box-shadow: -407px 0 0 400px #00ff00;
+                 
+                 }
+                     /* MR.BARUN */
+          #r3 { -webkit-appearance: none;
+                 width: 16rem;
+                 height: 15px;
+                 background: #fff;
+                 outline: none;
+                 margin-bottom: 10px;
+                 overflow: hidden;
+                 border-radius: 15px;
+                 box-shadow: inset 0 0 5px rgba(0, 0, 0, 1);
+                 }
+     #r3::-webkit-slider-thumb {
+                 -webkit-appearance: none;
+                 height: 15px;
+                 width: 15px;
+                 border-radius: 50%;
+                 background: blue;
+                 corsor: pointer;
+                 border: 3px solid #000;
+                 box-shadow: -407px 0 0 400px blue;
+                 
+                 }
+                 
+                 
+           #rangeValue, #rangeVAlue, #RangeValue { font-size: 2rem;
+                          background: black;
+                          color: white;
+                          padding: 0.3rem;
+                          border-radius: 5px;
+                          color: hsl(0, 0%, 94%);
+                          }
+             #name { 
+                      font-size: 1.4rem;
+                     }

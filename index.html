@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>--CODE-BY--BARUN--</title>
+<meta name="viewport" content="width=device-width, inital-scale = 1.0" />
+<link rel="stylesheet" type="text/css" href="style.css">
+
+
+</head>
+<body>  <center>
+           <div id="bckColor"><br>
+      <h1 id="name">COLOR PICKER BY - <br/>{ BARUN }</h1>
+          <br>
+           
+           <table>
+           <tr>
+           <td>
+         </td>
+        </tr>
+           
+           <tr>
+             <td> HEX CODE</td>
+           </tr>
+             <tr>
+           <td>
+           <input id="txtHex" type="text" readonly/>
+             </td>
+           </tr>
+           
+       <tr>
+       <td><br>
+      Red: <span id="rangeValue">128</span> </td>
+      </tr>
+    <tr>
+      <td>
+      <input oninput="backColor();" id="r1" onchange="rangeSlide(this.value)" onmousemove="rangeSlide(this.value)" type="range" min="0" max="255" />
+      </td>
+   </tr>
+     <tr> 
+                    <!-- SPECIAL THANKS TO
+                            MR.BARUN   -->     
+       <td>
+      Green: <span id="rangeVAlue">128</span>
+        </td>
+    </tr>
+     <tr>
+       <td>
+      <input oninput="backColor();" id="r2" onchange="rangESlide(this.value)" onmousemove="rangESlide(this.value)" type="range" min="0" max="255" />
+         </td>
+      </tr>
+     <tr>
+       <td>
+      Blue: <span id="RangeValue">128</span>
+     </td>
+        </tr>
+    <tr>
+       <td>
+    <input oninput="backColor();" id="r3" onchange="RangeSlide(this.value)" onmousemove="RangeSlide(thia.value)" type="range" min="0" max="255" />
+      </td>
+    </tr>
+    
+    <button onclick="processData('r1','r2','r3');" id="value">Get rgb value</button>
+       </table>
+      <br />
+      <br />
+    
+   <h1>𝙳𝙴𝚅𝙻𝙾𝙿𝙴𝙳 𝙱𝚈 &#8594; { 𝙱𝙰𝚁𝚄𝙽 }</h1>
+   <br />
+  
+     
+       </div>
+            </center>
+  
+  <script src="script.js">
+  </script>
+  
+
+</body>
+</html>
